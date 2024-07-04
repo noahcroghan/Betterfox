@@ -243,7 +243,20 @@ user_pref("layout.css.color-mix.enabled", true);
 // Allows theme to use different colours for light/dark mode.
 user_pref("layout.css.light-dark.enabled", true);
 
+// Enable a card preview on tab hover (Like Chrome)
 user_pref("browser.tabs.cardPreview.enabled", true);
+
+// Disable macOS native context menus
+user_pref("widget.macos.native-context-menus", false);
+
+// Disable reader
+user_pref("reader.parse-on-load.enabled", false);
+
+// Edge-frfox tweaks
+user_pref("uc.tweak.remove-tab-separators", true);
+user_pref("uc.tweak.context-menu.hide-firefox-account", true);
+user_pref("uc.tweak.context-menu.compact-extensions-menu", true);
+user_pref("uc.tweak.hide-forward-button", true);
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
 ****************************************************************************/
