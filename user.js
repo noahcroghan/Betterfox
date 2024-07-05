@@ -252,6 +252,12 @@ user_pref("widget.macos.native-context-menus", false);
 // Disable reader
 user_pref("reader.parse-on-load.enabled", false);
 
+// Force disable that awful menu when you press alt on Windows
+user_pref("ui.key.menuAccessKeyFocuses", false);
+
+// Allows switching tabs by hovering over the tabbox and scrolling
+user_pref("toolkit.tabbox.switchByScrolling", true);
+
 // Edge-frfox tweaks
 user_pref("uc.tweak.remove-tab-separators", true);
 user_pref("uc.tweak.context-menu.hide-firefox-account", true);
